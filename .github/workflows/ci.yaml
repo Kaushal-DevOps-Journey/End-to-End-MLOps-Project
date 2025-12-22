@@ -29,7 +29,7 @@ jobs:
 
       - name: run pipeline
         env:
-          CAPSTONE_TEST: ${{ secrets.END_TO_END_MLOPS_PROJECT }}
+          END_TO_END_MLOPS_PROJECT: ${{ secrets.END_TO_END_MLOPS_PROJECT }}
         run: |
           dvc repro
 
