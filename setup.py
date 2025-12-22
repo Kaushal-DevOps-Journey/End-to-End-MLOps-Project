@@ -4,7 +4,7 @@ setup(
     name='src',
     packages=find_packages(),
     version='0.1.0',
-    description='A short description of the project.',
-    author='Your name (or your organization/company/team)',
+    description='End-to-End MLOps Project',
+    author='Kaushal Kumar',
     license='MIT',
 )
